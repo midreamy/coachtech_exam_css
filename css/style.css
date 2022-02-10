@@ -1,0 +1,44 @@
+header {
+  color: blue;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0 50px;
+}
+
+.header-logo {
+  font-size: 20px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+main{
+  margin: 0 30px 80px 30px;
+}
+
+.main-graphic img{
+  width: 50%;
+  position: relative;
+  top: 120px;
+  left: 50%;
+}
+
+.main-colorbox{
+  width: 70%;
+  height: 150px;
+  background-color:blue;
+}
+
+.main-message{
+  font-size: 50px;
+}
